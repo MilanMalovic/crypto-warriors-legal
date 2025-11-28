@@ -1,67 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crypto Warriors – Legal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Warriors - Support</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background: #f8f8f8;
-            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0c0e11;
+            color: #FFFFFF;
             line-height: 1.6;
+            padding: 20px;
         }
+
         .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            padding: 30px;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            background: rgba(29, 54, 66, 0.5);
+            color: #E6B805;
+            padding: 12px 24px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        a {
-            color: #0056d6;
             text-decoration: none;
-            font-weight: bold;
+            border: 1px solid rgba(139, 105, 20, 0.3);
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.2s;
         }
-        a:hover {
-            text-decoration: underline;
+
+        .nav-btn:hover {
+            background: rgba(29, 54, 66, 0.8);
+            border-color: #E6B805;
         }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
         h1 {
+            font-size: 36px;
+            color: #E6B805;
             margin-bottom: 10px;
         }
-        p {
+
+        .subtitle {
+            color: #8F92A1;
+            font-size: 16px;
+        }
+
+        .section {
+            background: #0F131A;
+            border: 1px solid rgba(139, 105, 20, 0.5);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #E6B805;
+            font-size: 22px;
             margin-bottom: 15px;
         }
+
+        h3 {
+            color: #FFFFFF;
+            font-size: 18px;
+            margin: 20px 0 10px 0;
+        }
+
+        p, li {
+            color: #8F92A1;
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: #E6B805;
+            color: #0c0e11;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .contact-btn:hover {
+            background: #FFD700;
+        }
+
         .footer {
-            margin-top: 30px;
-            font-size: 14px;
-            color: #666;
             text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(139, 105, 20, 0.3);
+            color: #8F92A1;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 28px; }
+            .section { padding: 20px; }
+            .nav { gap: 10px; }
+            .nav-btn { padding: 10px 18px; font-size: 13px; }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Crypto Warriors – Legal Documentation</h1>
+        <nav class="nav">
+            <a href="https://milanmalovic.github.io/crypto-warriors-legal/privacy-policy.html" class="nav-btn">Privacy Policy</a>
+            <a href="https://milanmalovic.github.io/crypto-warriors-legal/terms-of-use.html" class="nav-btn">Terms of Use</a>
+        </nav>
 
-        <p>Welcome to the official legal documentation section for the Crypto Warriors mobile game.</p>
+        <div class="header">
+            <h1>Crypto Warriors Support</h1>
+            <p class="subtitle">Battle. Predict. Conquer.</p>
+        </div>
 
-        <p>This page provides access to all legally required documents for Google Play Store, Apple App Store, Firebase, and AdMob compliance.</p>
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p>Need help? Email us and we'll respond within 24 hours.</p>
+            <a href="mailto:crypto.warriors@yahoo.com" class="contact-btn">Email Support</a>
+        </div>
 
-        <h3>Available Documents</h3>
-        <ul>
-            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-            <li><a href="terms-of-use.html">Terms of Use</a></li>
-            <li><a href="ads.txt">Ads Disclosure (ads.txt)</a></li>
-        </ul>
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <h3>How do I play?</h3>
+            <p>Choose a cryptocurrency, predict if the price will go UP or DOWN, and compete against friends, users, or virtual opponents. The game is ready in 10 seconds and correct predictions win!</p>
+            
+            <h3>How do I purchase coins?</h3>
+            <p>Go to the Store section in the app and select a coin package.</p>
+            
+            <h3>How do I add friends?</h3>
+            <p>Search for friends by username in the Friends section.</p>
+            
+            <h3>How does XP work?</h3>
+            <p>Earn XP by winning games, completing daily challenges, and maintaining win streaks.</p>
+        </div>
 
-        <p>If you have any questions regarding our policies or the Crypto Warriors game, please contact us at:</p>
-        <p><strong>crypto.warriors@yahoo.com</strong></p>
+        <div class="section">
+            <h2>Report a Bug</h2>
+            <p>Found an issue? Email us with:</p>
+            <ul>
+                <li>Your device model and iOS version</li>
+                <li>Description of the problem</li>
+                <li>Screenshots (if possible)</li>
+            </ul>
+        </div>
 
         <div class="footer">
-            © 2025 Crypto Warriors Team. All rights reserved.
+            <p>© 2024 Crypto Warriors. All rights reserved.</p>
         </div>
     </div>
 </body>
